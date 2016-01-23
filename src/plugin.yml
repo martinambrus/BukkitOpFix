@@ -1,0 +1,5 @@
+name: BukkitOpFix
+authors: [ZathrusWriter]
+description: Fixes the op-permission-level value restrictions adherence in server.properties file which was always ignored by Bukkit, making OPs REALLY OP.
+main: com.martinambrus.bukkitopfix.BukkitOpFix
+version: 0.1a
