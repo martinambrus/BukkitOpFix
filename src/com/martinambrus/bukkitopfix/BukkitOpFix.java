@@ -28,6 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -57,6 +58,13 @@ public class BukkitOpFix extends JavaPlugin implements Listener {
 		disabledOpCommands = this.getConfig().getStringList("level" + opLevel + "disabledCommands");
 
 		this.getServer().getPluginManager().registerEvents(this, this);
+
+		try {
+        	Metrics metrics = new Metrics(this);
+            metrics.start();
+		} catch (IOException e) {
+			Bukkit.getLogger().warning("Failed to initialize Metrics.");
+		}
     }
 
     public static String getString(String s, File f)
