@@ -1,11 +1,15 @@
 disallowMessage: "Sorry, access to this is restricted at the moment."
 level1disabledCommands:
   - achievement
+  - advancement
   - ban
   - "ban-ip"
   - blockdata
+  - bossbar
   - clear
   - clone
+  - data
+  - datapack
   - debug
   - defaultgamemode
   - deop
@@ -14,37 +18,55 @@ level1disabledCommands:
   - enchant
   - entitydata
   - execute
+  - experience
   - fill
+  - forceload
+  - function
   - gamemode
   - gamerule
   - give
   - kick
+  - kill
+  - list
+  - locate
+  - loot
   - op
   - pardon
   - "pardon-ip"
   - particle
   - playsound
+  - publish
+  - recipe
   - reload
   - replaceitem
   - restart
   - "save-all"
   - "save-off"
   - "save-on"
+  - schedule
+  - scoreboard
   - seed
   - setblock
   - setidletimeout
   - setworldspawn
-  - spawnpoint
+  - spectate
   - spreadplayers
   - stop
+  - stopsound
   - summon
+  - tag
+  - team
+  - teammsg
+  - teleport
   - testfor
   - testforblock
   - testforblocks
   - time
   - timings
   - toggledownfall
+  - tm
   - tp
+  - tps
   - trigger
   - version
   - weather
@@ -53,43 +75,65 @@ level1disabledCommands:
   - xp
 level2disabledCommands:
   - achievement
+  - advancement
   - ban
   - "ban-ip"
   - blockdata
+  - bossbar
   - clone
+  - data
+  - datapack
   - debug
   - defaultgamemode
   - deop
   - enchant
   - entitydata
   - execute
+  - experience
   - fill
+  - forceload
+  - function
   - kick
+  - kill
+  - list
+  - locate
+  - loot
   - op
   - pardon
   - "pardon-ip"
   - particle
   - playsound
+  - publish
+  - recipe
   - reload
   - replaceitem
   - restart
   - "save-all"
   - "save-off"
   - "save-on"
+  - schedule
+  - scoreboard
   - seed
   - setblock
   - setidletimeout
   - setworldspawn
-  - spawnpoint
+  - spectate
   - spreadplayers
   - stop
+  - stopsound
   - summon
+  - tag
+  - team
+  - teammsg
+  - teleport
   - testfor
   - testforblock
   - testforblocks
   - time
   - timings
+  - tm
   - toggledownfall
+  - tps
   - trigger
   - version
   - weather
@@ -98,36 +142,58 @@ level2disabledCommands:
   - xp
 level3disabledCommands:
   - achievement
+  - advancement
   - blockdata
+  - bossbar
   - clone
+  - data
+  - datapack
   - debug
   - defaultgamemode
   - enchant
   - entitydata
   - execute
+  - experience
   - fill
+  - forceload
+  - function
+  - kill
+  - list
+  - locate
+  - loot
   - particle
   - playsound
+  - publish
+  - recipe
   - reload
   - replaceitem
   - restart
   - "save-all"
   - "save-off"
   - "save-on"
+  - schedule
+  - scoreboard
   - seed
   - setblock
   - setidletimeout
   - setworldspawn
-  - spawnpoint
+  - spectate
   - spreadplayers
   - stop
+  - stopsound
   - summon
+  - tag
+  - team
+  - teammsg
+  - teleport
   - testfor
   - testforblock
   - testforblocks
   - time
   - timings
+  - tm
   - toggledownfall
+  - tps
   - trigger
   - version
   - weather
