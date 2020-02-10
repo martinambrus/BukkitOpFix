@@ -69,13 +69,6 @@ public class BukkitOpFix extends JavaPlugin implements Listener {
 		reloadOpsCache();
 
 		this.getServer().getPluginManager().registerEvents(this, this);
-
-		try {
-        	Metrics metrics = new Metrics(this);
-            metrics.start();
-		} catch (IOException e) {
-			Bukkit.getLogger().warning("[BukkitOpFix] Failed to initialize Metrics.");
-		}
     }
 
 	@SuppressWarnings("unchecked")
